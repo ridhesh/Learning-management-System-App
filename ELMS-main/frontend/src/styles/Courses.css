@@ -1,0 +1,32 @@
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.card-image {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 0;
+  padding-top:1rem;
+}
+
+.course-card {
+  border: 0;
+  box-shadow: 1px 1px 5px 0 grey;
+  border-radius: 0%;
+}
+
+.course-card:hover {
+  transform: scale(1.0001);
+  box-shadow: 0 0 15px 0 grey;
+}
+
+.card-course-title {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  display: inline;
+}

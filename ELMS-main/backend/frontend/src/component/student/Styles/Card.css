@@ -1,0 +1,64 @@
+.card-head {
+    text-align: start;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.card {
+    border-radius: 0%;
+    padding: 0;
+}
+.price-component
+{
+    align-items: center;
+    color: #1c1d1f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.enroll-component {
+
+    /* position:absolute; */
+    float: right;
+    margin-right: 10%;
+    position: sticky;
+    z-index: 101;
+    top: -32%;
+    right: 10%;
+    margin-top: 10rem;
+
+}
+
+.card-list li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+
+}
+
+
+.courseview-card-body {
+    background-color: white;
+    padding: 2.4rem 1.6rem;
+    /* position:sticky;
+    top:2px; */
+    z-index: 101;
+}
+
+.course-enroll {
+    width: 100%;
+}
+
+@media(max-width:1400px) {
+    .enroll-component {
+        display: none;
+    }
+
+    .child-div {
+        width: 100%;
+    }
+
+    .enroll {
+        display: block !important;
+    }
+}
